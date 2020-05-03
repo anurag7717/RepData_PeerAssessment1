@@ -1,4 +1,11 @@
-output: keep_md:TRUE
+output:
+  html_document:
+    fig_caption: yes
+    keep_md: yes
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path='figs/', echo = TRUE)
+```
 # Reproducible Research Assignmenmt 1
 
 ## Loading and preprocessing the data
